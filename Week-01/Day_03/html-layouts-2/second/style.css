@@ -1,0 +1,73 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/* box-sizing to most items */
+body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box;}
+/* end reset */
+
+body {
+    max-width: 900px;
+}
+p {
+    font: 400 28px/36px "Roboto";
+
+}
+.mainWrapper {
+    background: gray;
+    padding: 40px 80px;
+
+}
+.topArticle {
+    position: relative;
+    background: white;
+    height: 400px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+.redButton {
+    width: 190px;
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 60px;
+    background: red;
+    font: 40px "Arial";
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+.blueButton {
+    width: 190px;
+    height: 80px;
+    position: absolute;
+    bottom: 40px;
+    left: 300px;
+    background: blue;
+    font: 40px "Arial";
+    color: white;
+    text-align: center;
+    padding-top: 18px;
+}
+.bottomArticle {
+    position: relative;
+    background: white;
+    padding: 40px;
+}
+.bottomArticle img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background: black;
+    text-align: right;
+    padding-right: 30px;
+}
+footer li {
+    display: inline-block;
+    color: white;
+    font: 400 30px/100px "Roboto";
+    padding-right: 30px;
+}

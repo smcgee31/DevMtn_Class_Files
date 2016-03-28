@@ -1,0 +1,75 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/* box-sizing to most items */
+body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box;}
+/* end reset */
+
+
+.missionStatement {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.missionStatement p {
+    text-align: justify;
+    font-size: 125%;
+    font-family: sans-serif;
+    margin: 12px auto;
+    line-height: 150%;
+}
+.missionStatement a {
+    color: #0645AD;
+    text-decoration: none;
+}
+.tilesArea {
+    width: 80%;
+    margin: 0 auto;
+    padding: 15px;
+}
+.wikiTile {
+    height: 175px;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 175px;
+    float: left;
+    width: 24.75%;
+}
+.wikiTile a {
+    width: 150px;
+    height: 175px;
+    display: block;
+    margin: auto;
+}
+.icon {
+    width: 150px;
+    display: inline-block;
+}
+img {
+    width: 135px;
+    vertical-align: middle;
+}
+#footer {
+    clear: both;
+    width: 80%;
+    border-top: .5px solid #aaa;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+}
+#footer p {
+    font-size: 90%;
+    font-family: sans-serif;
+    margin: 8px auto;
+    line-height: 150%;
+}
+#footer li {
+    display: inline;
+    padding: 0 10px;
+    font-size: 90%;
+    font-family: sans-serif;
+}
+#footer span {
+    white-space: nowrap;
+}

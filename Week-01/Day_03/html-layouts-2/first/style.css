@@ -1,0 +1,93 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/* box-sizing to most items */
+body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box;}
+/* end reset */
+
+body {
+    max-width: 900px;
+}
+#main-wrapper {
+    background: white;
+}
+
+.header-boxes {
+    width: 29%;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 58px;
+    float: left;
+}
+
+#red-head {
+    background: red;
+    float: left;
+}
+
+#blue-head {
+    background: blue;
+}
+
+#black-head {
+    background: black;
+    float: right;
+    margin-right: 0;
+}
+
+.content {
+    clear: both;
+}
+
+.content p {
+    font: 28px "Arial";
+    margin-bottom: 20px;
+}
+
+.red-main {
+    display: inline-block;
+    background: red;
+    width: 30%;
+    height: 370px;
+    float: left;
+}
+
+.blue-main {
+    display: inline-block;
+    background: blue;
+    width: 70%;
+    height: 370px;
+}
+
+footer {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.blue-foot {
+    background: blue;
+    width: 70%;
+    height: 180px;
+    float: left;
+}
+
+.red-foot {
+    background: red;
+    width: 30%;
+    height: 180px;
+    float: left;
+}
+
+.black-foot {
+    position: absolute;
+    bottom: 0px;
+    right: 42px;
+    background: black;
+    width: 20%;
+    height: 180px;
+}

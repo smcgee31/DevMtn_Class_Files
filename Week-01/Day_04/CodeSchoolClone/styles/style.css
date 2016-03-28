@@ -1,0 +1,282 @@
+/** * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;outline:0;font:inherit;vertical-align:baseline}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+/* box-sizing to most items */
+body,header,main,footer,div,article,aside,details,figcaption,figure,hgroup,menu,nav,input,textarea,select,a,p,ul,ol,li,span{box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+/* end reset */
+
+body {
+    min-width: 360px;
+}
+.homePageHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo {
+    margin-left: 20px;
+}
+.menu {
+    margin-right: 20px;
+}
+.homePageIntroBox {
+    width: 100%;
+    color: #fff;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #21abc7 ,#616db3 );
+}
+.introHeaderText {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.introText {
+    width: 80%;
+    margin: 0 auto 20px;
+}
+.introButton {
+    width: 240px;
+    background-color: #ffae1c;
+    border: 1px solid #ffae1c;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 43px;
+}
+.videoSection {
+    padding: 60px 10px 10px 10px;
+}
+.videoSection h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
+.videoSection p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.videoSection img {
+    width: 100%;
+}
+.startCardsArea {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 60px 20px 60px 20px;
+    text-align: center;
+    background-color: #F6F8F8;
+}
+.startCardsArea h3 {
+    font-size: 21px;
+    line-height: 29px;
+}
+.startCardsArea p {
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+.startCards {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px #888;
+    -webkit-box-shadow: 0px 1px 2px #888;
+    background-color: #fff;
+    margin: 40px auto;
+}
+.startCards h4 {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 55px;
+    color: #21abc7;
+}
+.startCards p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 30px;
+}
+.startCardBadge {
+    width: 80px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 2%;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px #888;
+    -webkit-box-shadow: 0px 1px 2px #888;
+}
+.cardButton {
+    width: 180px;
+    background-color: #1C91A8;
+    border: 1px solid #1C91A8;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 36px;
+    margin: 20px;
+}
+.linkBottom {
+    padding: 12px;
+    border-top: 1px solid #e2e8e9;
+    background-color: #F6F8F8;
+}
+.linkBottom p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #aebdc1;
+}
+.linkBottom h5 {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #21abc7;
+}
+.linkBottom a {
+    text-decoration: none;
+}
+.howItWorks {
+    width: 100%;
+    margin: 0px 20px 0 20px;
+    padding-top: 42px;
+}
+.howItWorks h3 {
+    font-size: 21px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.howSection {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.howSection img {
+    width: 290px;
+
+}
+.howSection h4 {
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px;
+}
+.howSection p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 22px;
+}
+.crowdArea {
+    width: 100%;
+    position: relative;
+    padding: 60px 20px 60px 20px;
+    background-color: #F6F8F8;
+}
+.crowdArea h3 {
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.crowdArea p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+.crowdCards p {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+}
+.crowdCards img {
+    width: 80px;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 1px 2px #888;
+    -webkit-box-shadow: 0px 1px 2px #888;
+}
+.crowdCardsAuthor {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.shareStory h4 {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.shareStory button {
+    width: 160px;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 96%;
+    background-color: #F6F8F8;
+    border: 1px solid #1C91A8;
+    border-radius: 50px;
+    color: #1C91A8;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 36px;
+}
+.priceAttraction {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.priceAttraction h4 {
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+.price1 {
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(#f68a2e,#f25852);
+    padding: 75px;
+}
+.price2 {
+    width: 100%;
+    height: 480px;
+    background: linear-gradient(#21abc7,#616db3);
+    padding: 75px;
+}
+.dollar {
+    font-size: 36px;
+}
+.amt {
+    font-size: 58px;
+}
+.time {
+    font-size: 36px;
+}
+.divLine1 {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 22%;
+    width: 75px;
+    height: 2px;
+    content: "";
+    background: #ffae1c;
+}
+.divLine2 {
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 73%;
+    width: 75px;
+    height: 2px;
+    content: "";
+    background: #21abc7;
+}
+.reasons {
+    text-align: left;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 50px 60px 40px 60px;
+    list-style: disc;
+}
