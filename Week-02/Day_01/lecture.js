@@ -125,3 +125,7 @@ function removeUser(array, property, value) {  // <------ its ok to use these ge
 }
 
 removeUser(big_brichards@gmail.com);
+
+for (variable of iterable) {
+
+}
