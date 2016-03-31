@@ -2,9 +2,10 @@ $(document).ready(function(){
 
     var colors = 'white green red blue yellow';
     var color = 'white';
+    var boxes = $('.box')
 
     $('#reset').on('click', function(){
-        $('.box').removeClass(colors);
+        boxes.removeClass(colors);
     });
     $('#red').on('click', function(){
         color = 'red';
@@ -22,11 +23,11 @@ $(document).ready(function(){
         color = 'white';
     });
 
-    $('.box').on('click', function(){
+    boxes.on('click', function(){
         $(this).addClass(color);
     });
-    $('.box').on('dblclick', function(){
+    boxes.on('dblclick', function(){
         $(this).removeClass(colors);
     });
-    
+
 });

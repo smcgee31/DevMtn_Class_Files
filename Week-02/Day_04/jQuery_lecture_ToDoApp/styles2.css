@@ -1,0 +1,6 @@
+#todoApp li {
+  cursor: pointer;
+}
+#todoApp li.done {
+    text-decoration: line-through;
+    color: lightgray;
