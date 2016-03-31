@@ -168,8 +168,8 @@ var addTask = function(task) {
 		$('#newItemInput').val('');
 
 		$('#newList').append('<a href="#finish" class="" id="item"><li class="list-group-item">' + task.task + '<span class="arrow pull-right"><i class="glyphicon glyphicon-arrow-right"></span></li></a>');
-
 	}
+
 	$('#newTaskForm,  #newListItem').fadeToggle('fast', 'linear');
 
 };
@@ -257,6 +257,7 @@ We need to include this function in our code. We will refer to this function in 
 
 *app.js*
 ```javascript
+
 var advanceTask = function(task) {
   var modified = task.innerText.trim()
   for (var i = 0; i < listo.length; i++) {
@@ -356,7 +357,7 @@ A lot of times when writing software we don't necessarily want to delete things 
 
 Think of our archived ID like a soft delete. We could make it disappear to the user, but if there is a case where they made a mistake it's still accessible.
 
-Perhaps it's not so important with a todolist, but it's good to start thinking about.
+Perhaps it's not so important with a todo list, but it's good to start thinking about.
 
 
 ## Black Diamond: Local Storage
